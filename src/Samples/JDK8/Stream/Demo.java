@@ -1,4 +1,4 @@
-package Samples.JDK8.Streams;
+package Samples.JDK8.Stream;
 
 
 import java.util.ArrayList;

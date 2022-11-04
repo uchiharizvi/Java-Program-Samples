@@ -1,6 +1,5 @@
-package Samples.JDK8.Streams;
+package Samples.JDK8.Stream;
 
-import utilities.StringGenerator;
 
 import java.util.ArrayList;
 import java.util.Collections;
