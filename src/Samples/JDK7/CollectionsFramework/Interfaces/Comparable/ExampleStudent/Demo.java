@@ -1,4 +1,4 @@
-package Samples.JDK7.CollectionsFramework.Interfaces.Comparable;
+package Samples.JDK7.CollectionsFramework.Interfaces.Comparable.ExampleStudent;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,7 +10,9 @@ public class Demo {
         students.add(new Student(101,"Vijay",23));
         students.add(new Student(106,"Ajay",27));
         students.add(new Student(105,"Jai",21));
-        Collections.sort(students);
+        //Collections.sort(students);
+        NameComparator nameComparator = new NameComparator();
+        Collections.sort(students, nameComparator);
         students.forEach(System.out::println);
     }
 }

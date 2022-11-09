@@ -1,6 +1,5 @@
-package Samples.JDK7.CollectionsFramework.Interfaces.Comparator;
+package Samples.JDK7.CollectionsFramework.Interfaces.Comparable.ExampleMovie;
 
-import corejava.collections.Comparable.Movie;
 
 import java.util.Comparator;
 

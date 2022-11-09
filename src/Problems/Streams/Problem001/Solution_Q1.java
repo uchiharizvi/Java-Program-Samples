@@ -1,8 +1,5 @@
 package Problems.Streams.Problem001;
 
-import utility.IntGenerator;
-import utility.StringGenerator;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -12,7 +9,7 @@ public class Solution_Q1 {
         int i = 0;
         List<Student> students = new ArrayList<>();
         while (i < 5) {
-            students.add(new Student(i + 1, StringGenerator.generateStringPlain(), IntGenerator.generateInteger()));
+            students.add(new Student(i + 1, "StringGenerator.generateStringPlain()", 1));
             i++;
         }
         //Default Sorting based on Name or Marks or Id

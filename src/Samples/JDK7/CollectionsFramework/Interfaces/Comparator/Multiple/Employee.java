@@ -1,4 +1,4 @@
-package Samples.JDK7.CollectionsFramework.Interfaces.Comparator;
+package Samples.JDK7.CollectionsFramework.Interfaces.Comparator.Multiple;
 
 public class Employee {
     public int employeeId;

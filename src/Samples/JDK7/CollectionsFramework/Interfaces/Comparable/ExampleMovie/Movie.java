@@ -1,4 +1,4 @@
-package Samples.JDK7.CollectionsFramework.Interfaces.Comparable;
+package Samples.JDK7.CollectionsFramework.Interfaces.Comparable.ExampleMovie;
 
 public class Movie implements Comparable<Movie> {
     private double rating;

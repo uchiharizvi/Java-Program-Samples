@@ -1,7 +1,5 @@
 package Samples.JDK7.CollectionsFramework.Interfaces.Comparator.Multiple;
 
-import org.java.tutorials.collections.comparator.Employee;
-
 import java.util.Comparator;
 
 public class SortByName implements Comparator<Employee> {

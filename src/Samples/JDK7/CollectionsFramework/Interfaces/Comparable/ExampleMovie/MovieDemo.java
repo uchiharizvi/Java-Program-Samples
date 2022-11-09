@@ -1,6 +1,5 @@
-package Samples.JDK7.CollectionsFramework.Interfaces.Comparable;
+package Samples.JDK7.CollectionsFramework.Interfaces.Comparable.ExampleMovie;
 
-import corejava.collections.Comparable.Comparator.RatingComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

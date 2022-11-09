@@ -1,9 +1,5 @@
 package Samples.JDK7.CollectionsFramework.Interfaces.Comparator.Conditional;
 
-import org.java.tutorials.collections.comparator.Employee;
-import org.java.tutorials.collections.comparator.multipleComparisons.SortByDepartment;
-import org.java.tutorials.collections.comparator.multipleComparisons.SortById;
-import org.java.tutorials.collections.comparator.multipleComparisons.SortByName;
 
 import java.util.ArrayList;
 import java.util.Collections;

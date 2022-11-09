@@ -1,7 +1,5 @@
 package Samples.JDK7.CollectionsFramework.Interfaces.Comparator.Conditional;
 
-import org.java.tutorials.collections.comparator.Employee;
-
 import java.util.Comparator;
 
 public class EmployeeSortingComparator implements Comparator<Employee> {

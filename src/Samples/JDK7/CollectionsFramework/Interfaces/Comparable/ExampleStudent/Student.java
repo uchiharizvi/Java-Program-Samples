@@ -1,4 +1,4 @@
-package Samples.JDK7.CollectionsFramework.Interfaces.Comparable;
+package Samples.JDK7.CollectionsFramework.Interfaces.Comparable.ExampleStudent;
 
 public class Student implements Comparable<Student> {
     int id;
@@ -16,6 +16,18 @@ public class Student implements Comparable<Student> {
         if (age == s.age) return 0;
         else if (age > s.age) return 1;
         else return -1;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
     }
 
     @Override

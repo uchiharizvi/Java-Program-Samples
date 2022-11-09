@@ -1,7 +1,5 @@
 package Samples.JDK7.CollectionsFramework.Operations.Sorting;
 
-import jdk.nashorn.internal.runtime.regexp.joni.exception.SyntaxException;
-
 import java.util.ArrayList;
 import java.util.List;
 
